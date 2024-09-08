@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 7.5vh;
+  height: 8vh;
   padding: 0.01rem 1rem 0.01rem 0.01rem;
 }
 header img {
@@ -43,10 +43,19 @@ li {
 
 figure {
   width: 100%;
-  height: 32rem;
+  height: 20rem;
 }
 figure img {
   width: 100%;
   height: 32vh;
   background-size: cover;
+}
+
+.main {
+  width: 35rem;
+  height: 30rem;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  padding: 0 10rem;
 }/*# sourceMappingURL=style.css.map */
