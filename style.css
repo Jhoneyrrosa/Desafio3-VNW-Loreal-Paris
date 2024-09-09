@@ -23,7 +23,6 @@ header img {
 }
 
 ul {
-  background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,6 +38,8 @@ li {
   font-weight: 400;
   margin: 0 1rem;
   padding: 0 0.4rem;
+}
+li a {
   text-decoration: none;
 }
 
@@ -81,4 +82,15 @@ figure img {
   font-size: 2.4em;
   margin-top: 2rem;
   margin-left: 2rem;
+}
+
+.main2 {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+}
+.main2 p {
+  background-color: aqua;
+  width: 50rem;
+  height: 8rem;
 }/*# sourceMappingURL=style.css.map */
