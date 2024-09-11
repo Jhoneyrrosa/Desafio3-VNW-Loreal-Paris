@@ -9,34 +9,44 @@
     background-color: #EFEEF3;
  }
  header {
+  background-color: chartreuse;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     height: 8vh;
     padding: .01rem 1rem .01rem .01rem;
      img {
-        height: 4rem;
+        height: 3.5rem;
         margin-left: 3rem;
       }
     }
-    ul {
+    nav {
         display: flex;
-        justify-content: center;
+        justify-content: end;
         align-items: center;
         list-style-type: none;
         text-transform: uppercase;
         width: 100%;
         }
-    li{
-       height: 3.1rem;
+    nav{
+      background-color: blueviolet;
+       height: 3.2rem;
+       width: 21rem;
         font-family: "Kodchasan", sans-serif;
         font-size: 1.5rem;
         font-weight: 400;
-        margin: 0 1rem;
         padding: 0 .4rem;
         
         a {
+         background-color: cadetblue;
+          display: flex;
+          align-items: center;
+          justify-content: end;
           text-decoration: none;
+          margin-top: 1rem;
+          height: 2rem;
+          width: 18rem;
+       
         }
  }
   figure {
