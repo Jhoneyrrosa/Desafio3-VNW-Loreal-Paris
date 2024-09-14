@@ -1,129 +1,119 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
 }
- section {
+body {
+  background-color: #efeef3;
+}
+section {
+  width: 100%;
+  height: 100vh;
+}
+header {
+  width: 100vw;
+
+  img {
     width: 100%;
-    height: 160vh;
-    background-color: #EFEEF3;
- }
- header {
-  background-color: chartreuse;
+  }
+  .cabecalho {
+    background-color: #efeef3;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
-    width: 100vw;
-    height: 8vh;
-    padding: .01rem 1rem .01rem .01rem;
-     img {
-        height: 3.5rem;
-        margin-left: 3rem;
-      }
+    border: #ff0000 dotted 1px;
+    top: 0;
+    position: absolute;
+    padding: 10px 20px;
+    img {
+      width: 10%;
+      margin-left: 2rem;
     }
     nav {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        list-style-type: none;
-        text-transform: uppercase;
-        width: 100%;
-        }
-    nav{
-      background-color: blueviolet;
-       height: 3.2rem;
-       width: 21rem;
-        font-family: "Kodchasan", sans-serif;
-        font-size: 1.5rem;
-        font-weight: 400;
-        padding: 0 .4rem;
-        
-        a {
-         background-color: cadetblue;
-          display: flex;
-          align-items: center;
-          justify-content: end;
-          text-decoration: none;
-          margin-top: 1rem;
-          height: 2rem;
-          width: 18rem;
-       
-        }
- }
-  figure {
-    width: 100%;
-    height: 20rem;
-    
-  img {
-        width: 100%;
-        height: 32vh;
-        background-size: cover;
-    }
-   }
-    .main {
-      width: 35rem;
-      height: 30rem;
+      border: #ff0000 dotted 2px;
       display: flex;
-      margin-top: 2rem;
-      margin-left: 3rem;
-      padding: 0 10rem;
-    }
-    .main-texto {
-      width: 35rem;
-      height: 40rem;
+      justify-content: end;
       align-items: center;
-      margin-left: 10rem;
-      text-align: center;
-      margin-top: 5rem;
-
-      h1 {
-        width: 50rem;
-        font-size: 3.6em;
-        font-family: Kodchasan;
-        font-weight: 400;
-        line-height: 3.5rem;
-      }
-       p {
-        width: 45rem;
-        font-size: 2.4em;
-        margin-top: 2rem;
-        margin-left: 2rem;
-        
-      }
+      list-style-type: none;
+      justify-content: space-around;
+      width: 80%;
     }
-     .main2 {
-      width: 100%;
-      height: 30rem;
-      display: flex;
-      margin-left: 9rem;
-      margin-top: 4rem;
+  }
+}
 
-      p {
-        width: 50rem;
-        height: 8rem;
-        font-family: Kodchasan;
-        font-weight: 400;
-        font-size: 3rem;
-        margin-left: 4rem;
-       margin-top: 6rem;
+a {
+  border: #ff0000 dotted 1px;
+  display: flex;
+  align-items: center;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 1rem;
+}
 
-      }
-       figure { 
-        width: 50rem;
-        display: flex;
-        justify-content: center;
-      }
-       img {
-        width: 8.1rem;
-        height: 20rem;
-        margin-left: 6rem;
-       }
-       
+.main {
+  width: 35rem;
+  height: 30rem;
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  padding: 0 10rem;
+}
+.main-texto {
+  width: 35rem;
+  height: 40rem;
+  align-items: center;
+  margin-left: 10rem;
+  text-align: center;
+  margin-top: 5rem;
 
-       }
+  h1 {
+    width: 50rem;
+    font-size: 3.6em;
+    font-family: Kodchasan;
+    font-weight: 400;
+    line-height: 3.5rem;
+    margin-top: 2rem;
+  }
+  p {
+    border: #ff0000 solid 2px;
+    padding: 0 1rem;
+    width: 45rem;
+    height: 25rem;
+    font-size: 2.4em;
+    margin-top: 2rem;
+  }
+}
+.main2 {
+  width: 100vw;
+  height: 30rem;
+  display: flex;
+  margin-left: 9rem;
+  margin-top: 4rem;
 
-        
-       
-   
+  p {
+    width: 50rem;
+    height: 8rem;
+    font-family: Kodchasan;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-left: 4rem;
+    margin-top: 6rem;
+  }
+  .teste {
+    width: 50rem;
+    display: flex;
+    justify-content: center;
 
-
-   
+    img {
+      width: 8.1rem;
+      height: 20rem;
+      margin-left: 6rem;
+      margin-top: 3rem;
+    }
+  }
+}

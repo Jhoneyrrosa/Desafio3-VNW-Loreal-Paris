@@ -2,71 +2,66 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: #efeef3;
 }
 
 section {
   width: 100%;
-  height: 160vh;
-  background-color: #EFEEF3;
+  height: 100vh;
 }
 
 header {
-  background-color: chartreuse;
-  display: flex;
-  justify-content: space-between;
   width: 100vw;
-  height: 8vh;
-  padding: 0.01rem 1rem 0.01rem 0.01rem;
 }
 header img {
-  height: 3.5rem;
-  margin-left: 3rem;
+  width: 100%;
 }
-
-nav {
+header .cabecalho {
+  background-color: #efeef3;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  border: #ff0000 dotted 1px;
+  top: 0;
+  position: absolute;
+  padding: 10px 20px;
+}
+header .cabecalho img {
+  width: 10%;
+  margin-left: 2rem;
+}
+header .cabecalho nav {
+  border: #ff0000 dotted 2px;
   display: flex;
   justify-content: end;
   align-items: center;
   list-style-type: none;
-  text-transform: uppercase;
-  width: 100%;
+  justify-content: space-around;
+  width: 80%;
 }
 
-nav {
-  background-color: blueviolet;
-  height: 3.2rem;
-  width: 21rem;
+a {
+  border: #ff0000 dotted 1px;
+  display: flex;
+  align-items: center;
   font-family: "Kodchasan", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
-  padding: 0 0.4rem;
-}
-nav a {
-  background-color: cadetblue;
-  display: flex;
-  align-items: center;
-  justify-content: end;
   text-decoration: none;
   margin-top: 1rem;
-  height: 2rem;
-  width: 18rem;
-}
-
-figure {
-  width: 100%;
-  height: 20rem;
-}
-figure img {
-  width: 100%;
-  height: 32vh;
-  background-size: cover;
 }
 
 .main {
   width: 35rem;
   height: 30rem;
   display: flex;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-left: 3rem;
   padding: 0 10rem;
 }
@@ -85,16 +80,19 @@ figure img {
   font-family: Kodchasan;
   font-weight: 400;
   line-height: 3.5rem;
+  margin-top: 2rem;
 }
 .main-texto p {
+  border: #ff0000 solid 2px;
+  padding: 0 1rem;
   width: 45rem;
+  height: 25rem;
   font-size: 2.4em;
   margin-top: 2rem;
-  margin-left: 2rem;
 }
 
 .main2 {
-  width: 100%;
+  width: 100vw;
   height: 30rem;
   display: flex;
   margin-left: 9rem;
@@ -109,13 +107,14 @@ figure img {
   margin-left: 4rem;
   margin-top: 6rem;
 }
-.main2 figure {
+.main2 .teste {
   width: 50rem;
   display: flex;
   justify-content: center;
 }
-.main2 img {
+.main2 .teste img {
   width: 8.1rem;
   height: 20rem;
   margin-left: 6rem;
+  margin-top: 3rem;
 }/*# sourceMappingURL=style.css.map */
