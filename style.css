@@ -46,6 +46,13 @@ header .cabecalho nav {
   width: 80%;
 }
 
+@media (max-width: 450px) {
+  .cabecalho {
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+  }
+}
 a {
   border: #ff0000 dotted 1px;
   display: flex;
