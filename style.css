@@ -86,6 +86,19 @@ header a {
   margin-top: 2rem;
 }
 
+.main2 p {
+  width: 40%;
+  font-size: 3em;
+  margin-left: 4rem;
+}
+
+figure {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 @media (max-width: 450px) {
   body {
     width: 100%;
@@ -96,7 +109,10 @@ header a {
   .logo {
     width: 20%;
     height: 5%;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   section {
     height: 100%;
@@ -127,17 +143,4 @@ header a {
   .main2 figure {
     flex-wrap: wrap;
   }
-}
-
-.main2 p {
-  width: 40%;
-  font-size: 3em;
-  margin-left: 4rem;
-}
-
-figure {
-  width: 50%;
-  height: 40vh;
-  display: flex;
-  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */
