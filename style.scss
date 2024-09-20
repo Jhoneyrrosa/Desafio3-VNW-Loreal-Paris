@@ -21,7 +21,6 @@ header {
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    border: #ff0000 dotted 1px;
     top: 0;
     position: absolute;
     padding: 10px 20px;
@@ -30,7 +29,6 @@ header {
       margin-left: 2rem;
     }
     nav {
-      border: #ff0000 dotted 2px;
       display: flex;
       justify-content: end;
       align-items: center;
@@ -39,9 +37,7 @@ header {
       width: 80%;
     }
   }
-
   a {
-    border: #ff0000 dotted 1px;
     display: flex;
     align-items: center;
     font-family: "Kodchasan", sans-serif;
@@ -53,41 +49,42 @@ header {
 }
 
 .main {
-  border: #520b94 solid 2px;
   height: 60%;
-
+  padding: 3rem;
   width: 90%;
   display: flex;
   justify-content: space-between;
-  margin: 10px auto;
 
   img {
-    border: #ff0000 solid 2px;
-    width: 20%;
+    width: 35%;
+    height: 60vh;
+    border-radius: 15px;
+    margin-left: 8em;
   }
 
   .main-texto {
-    width: 40%;
+    padding: 1em;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: #21c076 solid 2px;
     text-align: center;
+    margin-left: 5em;
+    margin-top: 3em;
 
     h2 {
       width: 100%;
-      font-size: 2rem;
+      font-size: 3.5rem;
       font-family: Kodchasan;
       font-weight: 400;
       line-height: 3.5rem;
-      // margin-top: 2rem;
+      margin-top: 2rem;
     }
     p {
-      border: #ff0000 solid 2px;
-      width: 80%;
-      // height: 25rem;
-      font-size: 1.2rem;
-      // margin-top: 2rem;
+      width: 90%;
+      height: 25rem;
+      font-size: 2.5rem;
+      margin-top: 2rem;
     }
   }
 }
@@ -150,13 +147,11 @@ header {
     div {
       display: flex;
       flex-direction: column;
-      background-color: #ff0000;
     }
   }
 }
 
 .main2 {
-  border: #21c076 solid 2px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -169,4 +164,15 @@ header {
       flex-wrap: wrap;
     }
   }
+}
+.main2 p {
+  width: 40%;
+  font-size: 3em;
+  margin-left: 4rem;
+}
+figure {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
 }
